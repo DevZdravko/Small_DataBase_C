@@ -29,6 +29,11 @@ int main() {
     strcpy(database[num_records].phone, "987-654-3210");
     num_records++;
 
+    // Adding another record
+    strcpy(database[num_records].name, "Zdravko Jovancevic");
+    strcpy(database[num_records].email, "zdravko@example.com");
+    strcpy(database[num_records].phone, "000-333-666-999");
+
     // Displaying all records
     printf("All records:\n");
     for (int i = 0; i < num_records; i++) {
