@@ -33,6 +33,7 @@ int main() {
     strcpy(database[num_records].name, "Zdravko Jovancevic");
     strcpy(database[num_records].email, "zdravko@example.com");
     strcpy(database[num_records].phone, "000-333-666-999");
+    num_records++;
 
     // Displaying all records
     printf("All records:\n");
